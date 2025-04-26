@@ -16,6 +16,7 @@ params:
   ShowFullTextinRSS: true
   ShowPageNums: true
   defaultTheme: "light"
+  hideFooter: true
 
   homeInfoParams:
     Title: "Hello Stranger👋!"
@@ -23,9 +24,9 @@ params:
 
   socialIcons:
     - name: "GitHub"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/Muhammed-Rajab"
     - name: "Instagram"
-      url: "https://twitter.com/yourusername"
+      url: "https://www.instagram.com/rajabkabeer/"
 
 menu:
   main:
