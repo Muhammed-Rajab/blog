@@ -2,9 +2,13 @@ baseURL: "https://muhammed-rajab.github.io/blog/"
 languageCode: "en-us"
 title: "Rajab Kabeer"
 theme: "PaperMod"
+defaultContentLanguage: "en"
+enableRobotsTXT: true
 
 params:
   author: "Me"
+  description: "An archive of thoughts and findings - as I wander through the gates of unknown."
+  keywords: ["blog", "archive", "programming", "math", "coding", "exploration", "linux", "network"]
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
