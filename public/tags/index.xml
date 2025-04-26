@@ -4,6 +4,11 @@
     <title>Tags on Rajab Kabeer</title>
     <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on Rajab Kabeer</description>
+    <image>
+      <title>Rajab Kabeer</title>
+      <url>http://localhost:1313/blog/images/default-home.png</url>
+      <link>http://localhost:1313/blog/images/default-home.png</link>
+    </image>
     <generator>Hugo -- 0.146.6</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />

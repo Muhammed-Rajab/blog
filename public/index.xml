@@ -4,6 +4,11 @@
     <title>Rajab Kabeer</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content on Rajab Kabeer</description>
+    <image>
+      <title>Rajab Kabeer</title>
+      <url>http://localhost:1313/blog/images/default-home.png</url>
+      <link>http://localhost:1313/blog/images/default-home.png</link>
+    </image>
     <generator>Hugo -- 0.146.6</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Apr 2025 13:29:27 +0530</lastBuildDate>

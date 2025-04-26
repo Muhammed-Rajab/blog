@@ -4,6 +4,11 @@
     <title>Categories on Rajab Kabeer</title>
     <link>http://localhost:1313/blog/categories/</link>
     <description>Recent content in Categories on Rajab Kabeer</description>
+    <image>
+      <title>Rajab Kabeer</title>
+      <url>http://localhost:1313/blog/images/default-home.png</url>
+      <link>http://localhost:1313/blog/images/default-home.png</link>
+    </image>
     <generator>Hugo -- 0.146.6</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
