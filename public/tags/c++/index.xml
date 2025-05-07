@@ -69,6 +69,9 @@
 <li>Make it clean enough and allow multiple users.</li>
 </ul>
 <p>This won&rsquo;t be a step-by-step guide on how to make one. The code I wrote is soo clean and self explanatory, even if you never did anything in <code>C++</code>, you&rsquo;ll understand pretty much the whole thing, given that you have some idea about sockets in Linux. Yes, we&rsquo;ll be using Linux sockets, not <code>winsock</code> (i !use arch, btw).</p>
+<h2 id="main-menu">Main Menu</h2>
+<p>It&rsquo;s not much, but it&rsquo;s interactive, eyy. There&rsquo;s a timeout of 30s and the user can select any from the two of the applications (as of now).</p>
+<p><img alt="Main Menu" loading="lazy" src="/blog/images/main-menu.gif"></p>
 <h2 id="telnet-app-1-kittysays">Telnet App #1: kitty.says()</h2>
 <p>A wise eye-blinking kitty giving you advice over the wire - could you be any more blessed? The app is quite simple. You store the kitty as frames, pair them with a bunch of quotes, and give the user the ability to go back to the menu, quit or even change the quote. Simple enough, right? It is.</p>
 <p>Most of the difficulty you&rsquo;ll be facing here will be related to handling user input. You will struggle a bit with <strong>&ldquo;IaCs&rdquo;</strong> (Interpret as Commands), Typeahead buffers, and some other quirky little stuff.</p>
