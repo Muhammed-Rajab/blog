@@ -9,10 +9,120 @@
       <url>http://localhost:1313/blog/images/default-home.png</url>
       <link>http://localhost:1313/blog/images/default-home.png</link>
     </image>
-    <generator>Hugo -- 0.146.6</generator>
+    <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Apr 2025 03:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 08:23:23 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Miss The Good Ol&#39; Telnet Days - So I Built My Own Server</title>
+      <link>http://localhost:1313/blog/posts/i-miss-the-old-telnet-days-so-i-built-my-own-server/</link>
+      <pubDate>Wed, 07 May 2025 08:23:23 +0530</pubDate>
+      <guid>http://localhost:1313/blog/posts/i-miss-the-old-telnet-days-so-i-built-my-own-server/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s the &lt;a href=&#34;https://github.com/Muhammed-Rajab/telnet.cpp&#34;&gt;&lt;em&gt;&lt;strong&gt;repo&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;, if you are in a hurry.&lt;/p&gt;
+&lt;p&gt;OK, I want to set the record straight: Before starting this project, I barely had any idea about telnet and its applications. Come on, what did you expect? I&amp;rsquo;m 19. &lt;strong&gt;&amp;ldquo;Old days&amp;rdquo; - pfff!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I always saw this word pop-up in networking articles I read, and you&amp;rsquo;ll always find this term in every article that&amp;rsquo;s titled&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;10 Cool Linux Terminal Tricks That You Should Know - And More!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Here&rsquo;s the <a href="https://github.com/Muhammed-Rajab/telnet.cpp"><em><strong>repo</strong></em></a>, if you are in a hurry.</p>
+<p>OK, I want to set the record straight: Before starting this project, I barely had any idea about telnet and its applications. Come on, what did you expect? I&rsquo;m 19. <strong>&ldquo;Old days&rdquo; - pfff!</strong></p>
+<p>I always saw this word pop-up in networking articles I read, and you&rsquo;ll always find this term in every article that&rsquo;s titled</p>
+<p><em><strong>10 Cool Linux Terminal Tricks That You Should Know - And More!</strong></em></p>
+<p>So I decided to search it up in my favorite search engine (i use google, btw), and oh boy, was it cool.</p>
+<h2 id="so-whats-telnet-really-all-about">So what&rsquo;s Telnet really all about?</h2>
+<p>Here&rsquo;s how Wikipedia describes Telnet:</p>
+<blockquote>
+<p>The telnet protocol is a client-server protocol that runs on a reliable connection-oriented transport. Most often, a telnet client connects over TCP to port 23 or 2323, where a Telnet server application is listening. The Telnet protocol abstracts any terminal as a Network Virtual Terminal (NVT). The client must simulate a NVT using the NVT codes when messaging the server.</p></blockquote>
+<p>Let&rsquo;s go through it like the good programmers we pretend to be are:</p>
+<p><strong>No.</strong></p>
+<p>To me, it&rsquo;s basically a way to connect to a TCP server, get the data, display, and maybe send some data back to the server. That&rsquo;s it. When I hear &ldquo;Telnet&rdquo;, I&rsquo;m not thinking about NVT and all that, I&rsquo;m too young for that.</p>
+<p>Personally, telnet is just a cool way for me to watch star wars.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ telnet towel.blinkenlights.nl
+</span></span></code></pre></div><p>This was all I had in my mind when I read about telnet. A super high budget movie but in terminal rendered in ASCII, moving at a super smooth frame rate and ridiculously high resolution? What more can I ask for?</p>
+<p>And when I finally tried it out, here&rsquo;s what I got</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>➜ telnet towel.blinkenlights.nl
+</span></span><span style="display:flex;"><span>Trying 213.136.8.188...
+</span></span></code></pre></div><p>Well, that sucks.</p>
+<p>My dreams were shattered into smithereens. My eyes welled up, hips trembling, spirit crushed. AAHHHHHHHHHHH (dramatic cat noises)</p>
+<p>It doesn&rsquo;t matter. We all are meant to be disappointed. Life ain&rsquo;t that easy, girl. Get over it.</p>
+<p>This was enough to give me the motivation needed to work on my own TCP server application and I knew exactly what to do.</p>
+<h2 id="introducing-telnetcpp">Introducing telnet.cpp</h2>
+<p>A simple TCP server which allows you to go through a grand collection of 2 (as of today) telnet applications. So cool, isn&rsquo;t it? Being as creative as a half-cut potato molding on the bottom shelf of the Fridge, I decided to name it <code>telnet.cpp</code>. And yes, I&rsquo;ll be using <code>C++</code> for the project, and here are the 13 reasons why I chose to use it:</p>
+<ol>
+<li><strong>I hate myself</strong></li>
+<li><strong>I love to boast</strong></li>
+<li><strong>I&rsquo;ll have to use C++ a lot in the near future</strong></li>
+<li><strong>The &lsquo;M&rsquo; is Masochist stands for me</strong></li>
+<li><strong>-</strong></li>
+<li><strong>-</strong></li>
+<li><strong>-</strong></li>
+<li><strong>-</strong></li>
+<li><strong>-</strong></li>
+<li><strong>-</strong></li>
+<li><strong>-</strong></li>
+<li><strong>-</strong></li>
+<li><strong>-</strong></li>
+</ol>
+<p>Sorry, I don&rsquo;t feel obliged to give all the 13 reasons. If you&rsquo;ve ever done anything in <code>C++</code>, you can probably fill out the rest yourself.</p>
+<p>The plan is simple:</p>
+<ul>
+<li>Give the user a menu to choose from.</li>
+<li>On choosing a program, render it to screen, accept user input, etc.</li>
+<li>Make it clean enough and allow multiple users.</li>
+</ul>
+<p>This won&rsquo;t be a step-by-step guide on how to make one. The code I wrote is soo clean and self explanatory, even if you never did anything in <code>C++</code>, you&rsquo;ll understand pretty much the whole thing, given that you have some idea about sockets in Linux. Yes, we&rsquo;ll be using Linux sockets, not <code>winsock</code> (i !use arch, btw).</p>
+<h2 id="main-menu">Main Menu</h2>
+<p>It&rsquo;s not much, but it&rsquo;s interactive, eyy. There&rsquo;s a timeout of 30s and the user can select any from the two of the applications (as of now).</p>
+<p><img alt="Main Menu" loading="lazy" src="/blog/images/main-menu.gif"></p>
+<h2 id="telnet-app-1-kittysays">Telnet App #1: kitty.says()</h2>
+<p>A wise eye-blinking kitty giving you advice over the wire - could you be any more blessed? The app is quite simple. You store the kitty as frames, pair them with a bunch of quotes, and give the user the ability to go back to the menu, quit or even change the quote. Simple enough, right? It is.</p>
+<p>Most of the difficulty you&rsquo;ll be facing here will be related to handling user input. You will struggle a bit with <strong>&ldquo;IaCs&rdquo;</strong> (Interpret as Commands), Typeahead buffers, and some other quirky little stuff.</p>
+<p>And in the end, I was left with this little thingy:</p>
+<p><img alt="kitty.says()" loading="lazy" src="/blog/images/kitty-says.gif"></p>
+<h2 id="telnet-app-2-cuberender">Telnet App #2: cube.render()</h2>
+<p>This&hellip; this is it. This was something that I wanted to try for quite some time. A rotating wireframe cube with controls. A few months back I built <a href="https://github.com/Muhammed-Rajab/terrible-renderer.cpp">terrible-renderer.cpp</a>, and it was one of my favorite projects till date. I finally got the chance to understand 3D rendering, and I built something that&rsquo;s very close to my heart - <strong>a fricking spinning DONUT🍩!</strong></p>
+<p>Ever since I started programming, I was so captivated by <a href="https://www.a1k0n.net/2011/07/20/donut-math.html">Andy Sloane&rsquo;s Donut.c</a>. It was my dream to build it myself one day. That <em>myself</em> part is quite important here. I want the math behind the rendering to slowly consume me from my inside, I didn&rsquo;t want to just copy paste the code. And once I got there, I faced another challenge: How can I make this a cube?</p>
+<p>There are several videos that explains the math behind the rendering, but it&rsquo;s pretty much the same.</p>
+<pre tabindex="0"><code>Generate Surface Coordinates -&gt; Transformation -&gt; Projection -&gt; Lighting -&gt; Rendering
+</code></pre><p>I attempted rendering the surface of the cube and I got a pretty satisfying result. But then I wanted to try something else. Something easier, but fun to do. So I chose to stick with Wireframe (no messy Z-Buffers, haha).</p>
+<p>And in the end, I was left with this big thingy,</p>
+<p><img alt="cube.render()" loading="lazy" src="/blog/images/cube-render.gif"></p>
+<p>As you can see, there are a few controls that you can mess around with to modify the cube&rsquo;s behaviour. Just make sure to press <strong>RETURN</strong> after any control input (That&rsquo;s how the server gets your input).</p>
+<h2 id="in-the-end">In the end&hellip;</h2>
+<p>it doesn&rsquo;t even matter.</p>
+<p>Nah, it does. I learned quite a bit from this project. I got to do some Linear Algebra, brush up on <code>C++</code>, and brag about the whole thing on Instagram. Ahhhhhh, INNER PEACE 🕊️</p>
+<p>The project isn&rsquo;t complete yet. I have to rewrite the server to handle multiple concurrent connections. Maybe polish the menu a bit? But I&rsquo;ll be sure to keep you updated here, love 💖.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Test Blog</title>
+      <link>http://localhost:1313/blog/posts/test-blog/</link>
+      <pubDate>Sun, 27 Apr 2025 01:45:33 +0530</pubDate>
+      <guid>http://localhost:1313/blog/posts/test-blog/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
+&lt;h2 id=&#34;this-is-even-crazier&#34;&gt;This is even crazier&lt;/h2&gt;
+&lt;p&gt;This is a new change&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hi&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; EXIT_SUCCESS;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;</description>
+      <content:encoded><![CDATA[<h1 id="hello-world">Hello World</h1>
+<h2 id="this-is-even-crazier">This is even crazier</h2>
+<p>This is a new change</p>
+<blockquote>
+<p>Hi</p></blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> EXIT_SUCCESS;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+]]></content:encoded>
+    </item>
     <item>
       <title>It Begins Here</title>
       <link>http://localhost:1313/blog/posts/it-begins-here/</link>

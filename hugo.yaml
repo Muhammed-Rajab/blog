@@ -4,6 +4,7 @@ title: "Rajab Kabeer"
 theme: "PaperMod"
 defaultContentLanguage: "en"
 enableRobotsTXT: true
+staticDir: "./static/"
 
 params:
   author: "Me"

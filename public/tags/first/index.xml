@@ -9,7 +9,7 @@
       <url>http://localhost:1313/blog/images/default-home.png</url>
       <link>http://localhost:1313/blog/images/default-home.png</link>
     </image>
-    <generator>Hugo -- 0.146.6</generator>
+    <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Apr 2025 03:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/first/index.xml" rel="self" type="application/rss+xml" />
@@ -18,14 +18,12 @@
       <link>http://localhost:1313/blog/posts/it-begins-here/</link>
       <pubDate>Sat, 26 Apr 2025 03:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/it-begins-here/</guid>
-      <description>&lt;p&gt;A sudden urge to start documenting my life at 3 AM.&lt;br&gt;
-I can’t see what it holds for me in the future.&lt;br&gt;
-Nonetheless, it begins here.&lt;/p&gt;
-&lt;hr&gt;</description>
-      <content:encoded><![CDATA[<p>A sudden urge to start documenting my life at 3 AM.<br>
-I can’t see what it holds for me in the future.<br>
-Nonetheless, it begins here.</p>
-<hr>
+      <description>&lt;p&gt;A sudden urge to start documenting my life at 3 AM.&lt;/p&gt;
+&lt;p&gt;I can&amp;rsquo;t see what it holds for me,
+but nonetheless, it begins here.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>A sudden urge to start documenting my life at 3 AM.</p>
+<p>I can&rsquo;t see what it holds for me,
+but nonetheless, it begins here.</p>
 ]]></content:encoded>
     </item>
   </channel>

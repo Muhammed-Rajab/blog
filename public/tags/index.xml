@@ -9,29 +9,36 @@
       <url>http://localhost:1313/blog/images/default-home.png</url>
       <link>http://localhost:1313/blog/images/default-home.png</link>
     </image>
-    <generator>Hugo -- 0.146.6</generator>
+    <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Apr 2025 03:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 08:23:23 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beginnings</title>
-      <link>http://localhost:1313/blog/tags/beginnings/</link>
-      <pubDate>Sat, 26 Apr 2025 03:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/beginnings/</guid>
+      <title>C&#43;&#43;</title>
+      <link>http://localhost:1313/blog/tags/c&#43;&#43;/</link>
+      <pubDate>Wed, 07 May 2025 08:23:23 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
-      <title>Journey</title>
-      <link>http://localhost:1313/blog/tags/journey/</link>
-      <pubDate>Sat, 26 Apr 2025 03:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/journey/</guid>
+      <title>Dev-Log</title>
+      <link>http://localhost:1313/blog/tags/dev-log/</link>
+      <pubDate>Wed, 07 May 2025 08:23:23 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/dev-log/</guid>
       <description></description>
     </item>
     <item>
-      <title>Reflection</title>
-      <link>http://localhost:1313/blog/tags/reflection/</link>
+      <title>Project</title>
+      <link>http://localhost:1313/blog/tags/project/</link>
+      <pubDate>Wed, 07 May 2025 08:23:23 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/blog/tags/first/</link>
       <pubDate>Sat, 26 Apr 2025 03:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/reflection/</guid>
+      <guid>http://localhost:1313/blog/tags/first/</guid>
       <description></description>
     </item>
   </channel>
