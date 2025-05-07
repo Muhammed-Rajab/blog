@@ -120,4 +120,6 @@ it doesn't even matter.
 
 Nah, it does. I learned quite a bit from this project. I got to do some Linear Algebra, brush up on `C++`, and brag about the whole thing on Instagram. Ahhhhhh, INNER PEACE 🕊️
 
-The project isn't complete yet. I have to rewrite the server to handle multiple concurrent connections. Maybe polish the menu a bit? But I'll be sure to keep you updated here, love 💖.
+The project isn't complete yet. I have to rewrite the server to handle multiple clients. Maybe polish the menu a bit? But I'll be sure to keep you updated here, love 💖.
+
+**UPDATE #1**: Now the server can handle multiple clients, using `std::thread`, and that's awesome✨.
