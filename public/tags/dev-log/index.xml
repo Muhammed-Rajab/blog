@@ -18,10 +18,7 @@
       <link>http://localhost:1313/blog/posts/i-miss-the-old-telnet-days-so-i-built-my-own-server/</link>
       <pubDate>Wed, 07 May 2025 08:23:23 +0530</pubDate>
       <guid>http://localhost:1313/blog/posts/i-miss-the-old-telnet-days-so-i-built-my-own-server/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s the &lt;a href=&#34;https://github.com/Muhammed-Rajab/telnet.cpp&#34;&gt;&lt;em&gt;&lt;strong&gt;repo&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;, if you are in a hurry.&lt;/p&gt;
-&lt;p&gt;OK, I want to set the record straight: Before starting this project, I barely had any idea about telnet and its applications. Come on, what did you expect? I&amp;rsquo;m 19. &lt;strong&gt;&amp;ldquo;Old days&amp;rdquo; - pfff!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I always saw this word pop-up in networking articles I read, and you&amp;rsquo;ll always find this term in every article that&amp;rsquo;s titled&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;10 Cool Linux Terminal Tricks That You Should Know - And More!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <description>hi</description>
       <content:encoded><![CDATA[<p>Here&rsquo;s the <a href="https://github.com/Muhammed-Rajab/telnet.cpp"><em><strong>repo</strong></em></a>, if you are in a hurry.</p>
 <p>OK, I want to set the record straight: Before starting this project, I barely had any idea about telnet and its applications. Come on, what did you expect? I&rsquo;m 19. <strong>&ldquo;Old days&rdquo; - pfff!</strong></p>
 <p>I always saw this word pop-up in networking articles I read, and you&rsquo;ll always find this term in every article that&rsquo;s titled</p>
@@ -89,7 +86,8 @@
 <h2 id="in-the-end">In the end&hellip;</h2>
 <p>it doesn&rsquo;t even matter.</p>
 <p>Nah, it does. I learned quite a bit from this project. I got to do some Linear Algebra, brush up on <code>C++</code>, and brag about the whole thing on Instagram. Ahhhhhh, INNER PEACE 🕊️</p>
-<p>The project isn&rsquo;t complete yet. I have to rewrite the server to handle multiple concurrent connections. Maybe polish the menu a bit? But I&rsquo;ll be sure to keep you updated here, love 💖.</p>
+<p>The project isn&rsquo;t complete yet. I have to rewrite the server to handle multiple clients. Maybe polish the menu a bit? But I&rsquo;ll be sure to keep you updated here, love 💖.</p>
+<p><strong>UPDATE #1</strong>: Now the server can handle multiple clients, using <code>std::thread</code>, and that&rsquo;s awesome✨.</p>
 ]]></content:encoded>
     </item>
   </channel>

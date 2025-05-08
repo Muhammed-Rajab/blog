@@ -2,6 +2,8 @@
 date: '2025-05-07T08:23:23+05:30'
 draft: false
 title: "I Miss The Good Ol' Telnet Days - So I Built My Own Server"
+description: "Who doesn't love a little low-level fun with telnet?"
+summary: "Who doesn't love a little low-level fun with telnet?"
 tags: ["c++", "project", "dev-log"]
 ---
 
