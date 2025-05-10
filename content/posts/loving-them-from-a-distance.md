@@ -10,7 +10,7 @@ _"I wish we had never met"_
 
 Have you ever felt the same with someone so close to you?
 
-You adored. Loved them. You would've gone to any length just to keep their world intact.
+You adored them. Loved them. You would've gone to any length just to keep their world intact.
 What if being away from them was the best thing after all?
 
 You wish you'd never met them.\
