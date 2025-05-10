@@ -27,7 +27,7 @@ params:
 
   homeInfoParams:
     Title: "Hello Stranger👋!"
-    Content: "An archive of thoughts and findings - as I wander through the gates of unknown."
+    Content: "This is an archive of my thoughts and findings - as I wander through the gates of unknown."
 
   socialIcons:
     - name: "GitHub"
