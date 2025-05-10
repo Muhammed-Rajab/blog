@@ -1,7 +1,8 @@
 ---
 date: '2025-05-09T23:50:36+05:30'
-draft: true
 title: 'Loving Them From A Distance'
+description: " "
+summary: " "
 tags: ["thoughts", "love", "poem"]
 ---
 
