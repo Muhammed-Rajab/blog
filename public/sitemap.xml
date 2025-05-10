@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/posts/loving-someone-from-a-distance/</loc>
+    <lastmod>2025-05-09T23:50:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/</loc>
+    <lastmod>2025-05-09T23:50:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-05-09T23:50:36+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/tags/c&#43;&#43;/</loc>
     <lastmod>2025-05-07T08:23:23+05:30</lastmod>
   </url><url>
@@ -11,13 +20,7 @@
     <loc>http://localhost:1313/blog/posts/i-miss-the-old-telnet-days-so-i-built-my-own-server/</loc>
     <lastmod>2025-05-07T08:23:23+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/posts/</loc>
-    <lastmod>2025-05-07T08:23:23+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/tags/project/</loc>
-    <lastmod>2025-05-07T08:23:23+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-05-07T08:23:23+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>

@@ -9,10 +9,53 @@
       <url>http://localhost:1313/blog/images/default-home.png</url>
       <link>http://localhost:1313/blog/images/default-home.png</link>
     </image>
-    <generator>Hugo -- 0.147.0</generator>
+    <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 May 2025 08:23:23 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 23:50:36 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loving Them From A Distance</title>
+      <link>http://localhost:1313/blog/posts/loving-someone-from-a-distance/</link>
+      <pubDate>Fri, 09 May 2025 23:50:36 +0530</pubDate>
+      <guid>http://localhost:1313/blog/posts/loving-someone-from-a-distance/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;I wish we had never met&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Have you ever felt the same with someone so close to you?&lt;/p&gt;
+&lt;p&gt;You adored. Loved them. You would&amp;rsquo;ve gone to any length just to keep their world intact.
+What if being away from them was the best thing after all?&lt;/p&gt;
+&lt;p&gt;You wish you&amp;rsquo;d never met them.&lt;br&gt;
+Or only knew their whereabouts.&lt;br&gt;
+You wish you were dead,&lt;br&gt;
+not to vanish, but to watch -&lt;br&gt;
+closely, yet from far enough away.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><em>&ldquo;I wish we had never met&rdquo;</em></p>
+<p>Have you ever felt the same with someone so close to you?</p>
+<p>You adored. Loved them. You would&rsquo;ve gone to any length just to keep their world intact.
+What if being away from them was the best thing after all?</p>
+<p>You wish you&rsquo;d never met them.<br>
+Or only knew their whereabouts.<br>
+You wish you were dead,<br>
+not to vanish, but to watch -<br>
+closely, yet from far enough away.</p>
+<p>&ldquo;Distance&rdquo; is the key here.<br>
+Your presence, your mere proximity to them was enough to alter who they were.<br>
+You were their Hemlock - poison dressed as love.<br>
+You robbed them of their innocence,<br>
+even as you tried to preserve it.</p>
+<p>&ldquo;Distance&rdquo; was again, necessary.<br>
+The lack thereof made you inseparable,<br>
+but so was the separation unavoidable.<br>
+You plucked the last bloom from the dying plant,<br>
+hoping it would bloom again in your hands.<br>
+But flowers don&rsquo;t forgive.<br>
+And neither do you.</p>
+<p>It was never the leaving that hurt - It was the Promises.<br>
+They were made; were broken.<br>
+Once a beautiful portrait of together,<br>
+Now it burns &ndash;<br>
+Not just the picture, but everything it ever meant.</p>
+<p><em>And you wish you&rsquo;d never met them.&quot;</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>I Miss The Good Ol&#39; Telnet Days - So I Built My Own Server</title>
       <link>http://localhost:1313/blog/posts/i-miss-the-old-telnet-days-so-i-built-my-own-server/</link>
