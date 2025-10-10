@@ -1,6 +1,6 @@
 ---
 date: '2025-10-07T17:11:55+05:30'
-draft: false
+draft: true
 title: 'Mein Erster Deutscher Blog'
 ---
 
