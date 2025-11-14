@@ -8,7 +8,7 @@ staticDir: "./static/"
 
 params:
   author: "Me"
-  description: "An archive of thoughts and findings - as I wander through the gates of unknown."
+  description: "A journal of my experiments, as I like to call it."
   keywords: ["blog", "archive", "programming", "math", "coding", "exploration", "linux", "network"]
   env: "production"
   images: ["images/default-home.png"]
@@ -22,12 +22,15 @@ params:
   ShowWordCount: true
   ShowFullTextinRSS: true
   ShowPageNums: true
-  defaultTheme: "light"
+  defaultTheme: "dark"
+  disableThemeToggle: true
   hideFooter: true
+  comments: yes
+  hideSummary: true
 
   homeInfoParams:
-    Title: "Hello Stranger👋!"
-    Content: "This is an archive of my thoughts and findings - as I wander through the gates of unknown."
+    Title: "Hello Stranger 💖!"
+    Content: "Thanks for stopping by! Make yourself at home :3"
 
   socialIcons:
     - name: "GitHub"
