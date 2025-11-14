@@ -20,6 +20,17 @@
   margin-bottom: 0;
 }
 
+.first-entry > .entry-header {
+  text-align: center;
+}
+.first-entry > .entry-content {
+  text-align: center;
+}
+.first-entry > .entry-footer {
+  display: flex;
+  justify-content: center;
+}
+
 .post-entry > .entry-footer {
   margin-top: 10px;
 }
