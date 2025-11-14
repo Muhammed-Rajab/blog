@@ -43,20 +43,25 @@ params:
 
 menu:
   main:
+    - identifier: "portfolio"
+      name: "Portfolio"
+      url: "https://muhammed-rajab.github.io"
+      weight: 1
+
     - identifier: "archive"
       name: "Archive"
       url: "/archives/"
-      weight: 1 
+      weight: 2
 
     - identifier: "search"
       name: "Search"
       url: "/search/"
-      weight: 2
+      weight: 3 
 
     - identifier: "tags"
       name: "Tags"
       url: "/tags/"
-      weight: 3
+      weight: 4
 
 outputs:
   home:
