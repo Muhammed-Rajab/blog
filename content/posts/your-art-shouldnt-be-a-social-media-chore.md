@@ -1,7 +1,7 @@
 ---
 date: '2025-12-25T22:26:49+05:30'
 draft: false
-title: "Your Art shouldn't be a Social Media Chore"
+title: "Your Art shouldn't be  Social Media Chore"
 ---
 
 Back in June 2025, I started posting guitar reels on Instagram. Faceless guitar accounts were suddenly blowing up, and I wanted to try my hand. Until then, I’d only used Instagram to chat with friends and watch cat videos.
