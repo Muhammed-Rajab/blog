@@ -7,6 +7,7 @@ enableRobotsTXT: true
 staticDir: "./static/"
 
 params:
+  math: true
   author: "Me"
   description: "A journal of my experiments, as I like to call it."
   keywords: ["blog", "archive", "programming", "math", "coding", "exploration", "linux", "network"]
@@ -62,6 +63,20 @@ menu:
       name: "Tags"
       url: "/tags/"
       weight: 4
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
 
 outputs:
   home:
