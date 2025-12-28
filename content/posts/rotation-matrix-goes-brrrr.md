@@ -1,6 +1,6 @@
 ---
 date: '2025-12-28T21:35:49+05:30'
-draft: true
+draft: false
 title: 'Fuckity fuck, Rotational Matrices go brr…'
 ---
 
