@@ -1,6 +1,6 @@
 ---
 date: '2025-12-30T14:47:25+05:30'
-draft: true
+draft: false
 title: 'Where did my memories go???'
 ---
 
