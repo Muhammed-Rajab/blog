@@ -30,8 +30,8 @@ params:
   hideSummary: true
 
   homeInfoParams:
-    Title: "Hello Stranger 💖!"
-    Content: "Thanks for stopping by! Make yourself at home :3"
+    Title: "Are you alive, love?"
+    Content: "Hopefully you are. Don't forget to live, ok?"
 
   socialIcons:
     - name: "GitHub"
