@@ -2,6 +2,7 @@
 date: '2025-12-31T21:45:21+05:30'
 draft: false
 title: 'To Care and Caress, but Not to Restrict or Suppress'
+tags: ["love", "rant", "relationship", "hearmeout"]
 ---
 
 To love and to be loved unconditionally must be one of the best feelings ever.
